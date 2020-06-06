@@ -20,4 +20,4 @@
 
 ## Author of code
 
-> - SIDHARTH BISAL
+- SIDHARTH BISAL
