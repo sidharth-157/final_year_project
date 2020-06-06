@@ -21,3 +21,9 @@
 ## Author of code
 
 - SIDHARTH BISAL
+
+## Contributors
+
+- Ishan Ayus
+- Bishnu Prasad Sahoo
+
