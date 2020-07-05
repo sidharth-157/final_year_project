@@ -21,22 +21,23 @@ $(document).ready(function(){
   <a class="navbar-brand" href="{{ url_for('index') }}">Home<span class="sr-only">(current)</span></a>
     <a class="navbar-brand" href="{{url_for('get_gallery')}}">Gallery</a>
     <a class="navbar-brand" href="{{ url_for('delete') }}">Delete</a>
+    <a class="navbar-brand" href="{{url_for('single')}}">single</a>
     <a class="navbar-brand" href="{{ url_for('index') }}">multiple</a>
-    
       
 </nav>
-<h2>Home</h2>
+<h2>Single</h2>
 <div class="shadow-lg p-3 mb-5 bg-white rounded">
 <div class="jumbotron">
     
 
-<form id="upload-form" action="{{ url_for('upload') }}" method="POST" enctype="multipart/form-data">
+<form id="upload-form" action="{{ url_for('upsingle') }}" method="POST" enctype="multipart/form-data">
 
     <h1><strong>Files:</strong></h1><br>
     <input id="file-picker" type="file" name="file" accept="image/*" multiple>
-    <div id="msg"></div>
+    <div id="msg"></div> 
     <input type="submit" value="Upload!" id="upload-button">
 </form>
+
 <h1></h1>
 <form id="hello" action="{{ url_for('delete') }}" >
 
